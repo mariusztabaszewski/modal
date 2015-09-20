@@ -1,0 +1,37 @@
+// Inspired by:
+
+// "Scalable and Modular Architecture for CSS" 
+// a book by Jonathan Snook - https://smacss.com/
+
+// Many articles about SMACSS, OOCSS and BEM
+
+// "SMACSS-based starter toolkit for SCSS project" by Mina Markham
+// - https://github.com/minamarkham/sassy-starter 
+
+
+// 01. Utilities 
+// 02. Base 
+// 03. Layout
+// 04. Modules 
+// 05. States
+
+
+// Utilities
+
+@import "utilities/index"; // variables, mixins ...
+
+// Base
+
+@import 'base/index';
+
+// Layout
+
+@import 'layout/index'; 
+
+// Modules
+
+@import 'modules/index'; 
+
+// States
+
+@import 'states/index'; 

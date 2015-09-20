@@ -1,0 +1,28 @@
+/* modal states */
+
+.modal {
+    .btn {
+        &:hover {
+            background: darken($purple,20%);
+        }
+
+        &:focus {
+            outline: 2px solid white;
+        }
+        &:active {
+            background: darken($purple,40%);
+        }
+    }
+    .close {
+        &:hover {
+            background: darken($purple,20%);
+        }
+        &:focus {
+            outline: 2px solid white;
+        }
+        &:active {
+            background: darken($purple,40%);
+        }
+    }
+}
+
