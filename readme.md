@@ -1,3 +1,5 @@
+http://mariusztabaszewski.github.io/modal/
+
 Podsumowanie:
 
 Zadanie zrealizowałem korzystając z SASS i JADE.
@@ -10,7 +12,7 @@ Wykorzystałem Grunta. Przekonwertowałem SCSS do CSS, dodałem odpowiednie pref
 
 Pisząc kod kierowałem się zasadą 'mobile first'.
 
-Modal wycentrowałem w następujący sposób: 'position:absolute', 'top: 50%'' i 'left: 50%'' oraz 'transform: translate(-50%, -50%)'.
+Modal wycentrowałem korzystając z 'position:absolute', 'top: 50%'' i 'left: 50%'' oraz 'transform: translate(-50%, -50%).
 
 Łatwo można również wycentrować element w pionie i poziomie korzystając z flexboxa. Wystarczyło by dać 'display: flex' elementowi zawierającemu (w tym wypadku .main-content) oraz 'justify-content: center' oraz 'align-items: center'.
 
@@ -18,7 +20,7 @@ Kolumny tekstu w widoku powyżej 768px ułożyłem za pomocą właściwości flo
 
 Jeżeli w widoku powyżej 768px któraś z kolumn będzie miała więcej tekstu to pojawi się scrollbar. Osiągnąłem to ustawiając właściwość overflow na auto.
 
-Krzyżyk w przycisku zamykającym okno utworzyłem za pomocą SVG. Potrzebny kod umieściłem na początku elementu body i wykorzystałem poźniej za pomocą elementu <use>.
+Krzyżyk w przycisku zamykającym okno utworzyłem za pomocą SVG. Potrzebny kod umieściłem na początku elementu body i wykorzystałem poźniej za pomocą elementu 'use'.
 
 Zadbałem o to żeby w sytuacji w której poruszamy się po stronie korzystając tylko z klawiatury było jasne który guzik w danym momencie możemy aktywować i ustawiłem obu guzikom odpowiedni outline, który pasuje do designu.
 
