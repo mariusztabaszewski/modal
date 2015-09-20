@@ -12,7 +12,7 @@ Wykorzystałem Grunta. Przekonwertowałem SCSS do CSS, dodałem odpowiednie pref
 
 Pisząc kod kierowałem się zasadą 'mobile first'.
 
-Modal wycentrowałem korzystając z 'position:absolute', 'top: 50%'' i 'left: 50%'' oraz 'transform: translate(-50%, -50%).
+Modal wycentrowałem korzystając z 'position:absolute', 'top: 50%'' i 'left: 50%'' oraz 'transform: translate(-50%, -50%). W przypadku gdy znałbym dokładne wymiary elementu mógłbym zamiast 'transform: translate(-50%, -50%)' wykorzystać ujemne marginesy - margin top o połowie wartości wysokości i margin left o połowie wartości szerokości.
 
 Łatwo można również wycentrować element w pionie i poziomie korzystając z flexboxa. Wystarczyło by dać 'display: flex' elementowi zawierającemu (w tym wypadku .main-content) oraz 'justify-content: center' oraz 'align-items: center'.
 
