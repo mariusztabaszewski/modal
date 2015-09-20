@@ -208,7 +208,7 @@ body {
 /* modal styles */
 @media (min-width: 769px) {
   .modal {
-    width: 60%;
+    width: 100%;
     max-width: 500px;
     height: 40%;
     min-height: 300px; } }

@@ -2,7 +2,7 @@
 
 .modal {
     @include bp(medium) {
-        width: 60%;
+        width: 100%;
         max-width: 500px;
         height: 40%;
         min-height: 300px;
